@@ -70,6 +70,7 @@ select:disabled {
   box-shadow: none;
 }
 
+<<<<<<< HEAD
 
 .styled-button {
   background-color: #fff;
@@ -108,3 +109,45 @@ select:disabled {
   color: #333;
 }
 
+=======
+.button-container {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  margin-top: 6rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.info-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.styled-button {
+  background-color: #778fa3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-button:hover {
+  background-color: #a8b2b9;
+  transform: translateY(-2px);
+}
+
+.styled-button:active {
+  transform: scale(0.98);
+}
+>>>>>>> origin/data-science
