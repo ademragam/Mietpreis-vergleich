@@ -291,3 +291,94 @@ select:disabled {
 .styled-button:active {
   transform: scale(0.98);
 }
+
+body {
+  background: #dbeafc;  
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;          
+  min-height: 100vh;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-top: 3rem;
+  font-size: 2.8rem;       
+  color: #222;             
+  margin-bottom: 1.5rem;   
+  text-align: center;      
+  letter-spacing: 0.05em;  
+}
+
+.button-container {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  margin-top: 6rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.info-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: left;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top5-liste {
+  list-style: decimal inside;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  padding-left: 0;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.top5-liste li {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.stadtbild-top5 {
+  display: block;
+  margin-top: 0.5rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.styled-button {
+  background-color: #778fa3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-button:hover {
+  background-color: #a8b2b9;
+  transform: translateY(-2px);
+}
+
+.styled-button:active {
+  transform: scale(0.98);
+}
