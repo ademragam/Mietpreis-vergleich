@@ -1,22 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const bilder = {
-    bretzfeld: "Prognosen/bretzfeld.jpg",
-    dorzbach: "Prognosen/dorzbach.jpg",
-    forchtenberg: "Prognosen/forchtenberg.jpg",
-    ingelfingen: "Prognosen/ingelfingen.jpg",
-    krautheim: "Prognosen/krautheim.jpg",
-    kunzelsau: "Prognosen/kunzelsau.jpg",
-    kupferzell: "Prognosen/kupferzell.jpg",
-    mulfingen: "Prognosen/mulfingen.jpg",
-    neuenstein: "Prognosen/neuenstein.jpg",
-    niedernhall: "Prognosen/niedernhall.jpg",
-    ohringen: "Prognosen/ohringen.jpg",
-    pfedelbach: "Prognosen/pfedelbach.jpg",
-    schontal: "Prognosen/schontal.jpg",
-    waldenburg: "Prognosen/waldenburg.jpg",
-    weissbach: "Prognosen/weissbach.jpg",
-    zweiflingen: "Prognosen/zweiflingen.jpg"
-  };
+const bilder = {
+  bretzfeld: "../data__science/Prognosen/bretzfeld.png",
+  dorzbach: "../data__science/Prognosen/dorzbach.png",
+  forchtenberg: "../data__science/Prognosen/forchtenberg.png",
+  ingelfingen: "../data__science/Prognosen/ingelfingen.png",
+  krautheim: "../data__science/Prognosen/krautheim.png",
+  kunzelsau: "../data__science/Prognosen/kunzelsau.png",
+  kupferzell: "../data__science/Prognosen/kupferzell.png",
+  mulfingen: "../data__science/Prognosen/mulfingen.png",
+  neuenstein: "../data__science/Prognosen/neuenstein.png",
+  niedernhall: "../data__science/Prognosen/niedernhall.png",
+  ohringen: "../data__science/Prognosen/ohringen.png",
+  pfedelbach: "../data__science/Prognosen/pfedelbach.png",
+  schontal: "../data__science/Prognosen/schontal.png",
+  waldenburg: "../data__science/Prognosen/waldenburg.png",
+  weissbach: "../data__science/Prognosen/weissbach.png",
+  zweiflingen: "../data__science/Prognosen/zweiflingen.png"
+};
+
 
   // Beide Bilder einzeln holen (HTMLCollection → Array-Index)
   const bilderElemente = document.getElementsByClassName("stadtbild");
