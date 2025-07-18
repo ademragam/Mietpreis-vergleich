@@ -14,7 +14,7 @@ Jahr,Mietpreis,Stadt
 2021,8.2,dorzbach
 2020,6.92,dorzbach
 2019,6.29,dorzbach
-2018,Nan,dorzbach
+2018,NaN,dorzbach
 2025,10.15,forchtenberg
 2024,10.43,forchtenberg
 2023,10.89,forchtenberg
@@ -101,7 +101,7 @@ Jahr,Mietpreis,Stadt
 2022,9.8,schontal
 2021,7.32,schontal
 2020,7.33,schontal
-2019,Nan,schontal
+2019,NaN,schontal
 2018,6.52,schontal
 2025,9.31,waldenburg
 2024,9.86,waldenburg
@@ -125,5 +125,5 @@ Jahr,Mietpreis,Stadt
 2022,9.81,zweiflingen
 2021,10.62,zweiflingen
 2020,8.0,zweiflingen
-2019,Nan,zweiflingen
+2019,NaN,zweiflingen
 2018,7.65,zweiflingen
