@@ -70,6 +70,46 @@ select:disabled {
   box-shadow: none;
 }
 
+
+
+.styled-button {
+  background-color: #fff;
+  color: #333;
+  border: 1.5px solid #ccc;
+  border-radius: 12px;
+  padding: 12px 40px 12px 16px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: system-ui, sans-serif;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.styled-button:hover{
+  border-color: #666;
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+  outline: none;
+}
+
+.button-container {
+  border: 2px solid #3c454e;     
+  border-radius: 12px;            
+  padding: 20px;                  
+  max-width: 300px;               
+  background-color: #f0f8ff;     
+  text-align: center;             
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 150px ;              
+}
+
+.info-text {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
+}
+
+
 .button-container {
   background-color: #ffffff;
   border: 2px solid #ccc;
@@ -88,6 +128,238 @@ select:disabled {
   margin-bottom: 1.5rem;
   line-height: 1.5;
   font-weight: 500;
+}
+
+.styled-button {
+  background-color: #778fa3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-button:hover {
+  background-color: #a8b2b9;
+  transform: translateY(-2px);
+}
+
+.styled-button:active {
+  transform: scale(0.98);
+}
+
+
+/* === Grundlegendes Styling === */
+body {
+  background: #dbeafc;  
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;          
+  min-height: 100vh;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Überschrift === */
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  margin-top: 3rem;
+  font-size: 2.8rem;       
+  color: #222;             
+  margin-bottom: 1.5rem;   
+  text-align: center;      
+  letter-spacing: 0.05em;  
+}
+
+/* === Dropdown-Container === */
+.auswaehlen {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+/* === Einzelner Block (Dropdown + Bild) === */
+.auswahl-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* === Dropdown === */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  background-color: #fff;      
+  color: #333;                 
+  border: 1.5px solid #ccc;    
+  border-radius: 12px;        
+  
+  padding: 12px 40px 12px 16px; 
+  font-size: 18px;             
+  font-weight: 500;
+  font-family: system-ui, sans-serif;
+  
+  cursor: pointer;
+  width: 220px;                
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  
+  background-image: url("data:image/svg+xml,%3Csvg fill='%23333' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 16px;
+}
+
+select:hover,
+select:focus {
+  border-color: #666;
+  box-shadow: 0 0 8px rgba(100, 100, 100, 0.3);
+  outline: none;
+}
+
+select:disabled {
+  background-color: #f5f5f5;
+  color: #aaa;
+  cursor: not-allowed;
+  border-color: #ddd;
+  box-shadow: none;
+}
+
+/* === Stadtbild unter dem Dropdown === */
+.stadtbild {
+
+  display: none;
+  margin-top: 16px;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+
+/* === Button-Bereich === */
+.button-container {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  margin-top: 6rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* === Text im Button-Bereich === */
+.info-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* === Button === */
+.styled-button {
+  background-color: #778fa3;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.styled-button:hover {
+  background-color: #a8b2b9;
+  transform: translateY(-2px);
+}
+
+.styled-button:active {
+  transform: scale(0.98);
+}
+
+body {
+  background: #dbeafc;  
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;          
+  min-height: 100vh;     
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-top: 3rem;
+  font-size: 2.8rem;       
+  color: #222;             
+  margin-bottom: 1.5rem;   
+  text-align: center;      
+  letter-spacing: 0.05em;  
+}
+
+.button-container {
+  background-color: #ffffff;
+  border: 2px solid #ccc;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  margin-top: 6rem;
+  max-width: 400px;
+  width: 100%;
+}
+
+.info-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  text-align: left;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top5-liste {
+  list-style: decimal inside;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  padding-left: 0;
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.top5-liste li {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.stadtbild-top5 {
+  display: block;
+  margin-top: 0.5rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .styled-button {
