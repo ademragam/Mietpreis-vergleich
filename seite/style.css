@@ -70,7 +70,7 @@ select:disabled {
   box-shadow: none;
 }
 
-<<<<<<< HEAD
+
 
 .styled-button {
   background-color: #fff;
@@ -109,7 +109,7 @@ select:disabled {
   color: #333;
 }
 
-=======
+
 .button-container {
   background-color: #ffffff;
   border: 2px solid #ccc;
@@ -150,7 +150,7 @@ select:disabled {
 .styled-button:active {
   transform: scale(0.98);
 }
->>>>>>> origin/data-science
+
 
 /* === Grundlegendes Styling === */
 body {
